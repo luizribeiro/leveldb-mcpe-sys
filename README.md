@@ -1,6 +1,3 @@
-# rockmap
+# leveldb-mcpe-sys
 
-```
-direnv allow
-cargo run
-```
+Rust bindings for [`leveldb-mcpe`](https://github.com/Mojang/leveldb-mcpe)
