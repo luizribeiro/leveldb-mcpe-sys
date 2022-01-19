@@ -13,5 +13,6 @@ fn main() {
         .expect("Failed to copy libleveldb.a to outdir");
     println!("cargo:rustc-link-search=native={}", outdir);
     println!("cargo:rustc-link-lib=static=leveldb");
+    println!("cargo:rustc-link-lib=zlib");
     println!("cargo:rustc-link-lib=stdc++");
 }
